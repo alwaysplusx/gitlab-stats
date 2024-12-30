@@ -1,0 +1,17 @@
+{
+  "name": "gitlab-stats",
+  "version": "1.0.0",
+  "description": "A tool to fetch and analyze GitLab stats",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.40.1",
+    "axios": "^1.5.0",
+    "bottleneck": "^2.19.5",
+    "gitlab-stats": "file:"
+  },
+  "license": "MIT"
+}
